@@ -1,6 +1,0 @@
-{
-  "latest": "0.9.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.9.1/pinclock-0.9.1.tar.gz",
-  "sha256": "a070d29d41b8be3a561b185254a57c2ae2496244766a4464cb86f77690f33968",
-  "changelog": "First real end-to-end test of the update pipeline - no functional changes from 0.9.0"
-}
