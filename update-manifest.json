@@ -1,6 +1,6 @@
 {
-  "latest": "0.9.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.9.1/pinclock-0.9.1.tar.gz",
-  "sha256": "a070d29d41b8be3a561b185254a57c2ae2496244766a4464cb86f77690f33968",
-  "changelog": "First real end-to-end test of the update pipeline - no functional changes from 0.9.0"
+  "latest": "0.10.0",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.10.0/pinclock-0.10.0.tar.gz",
+  "sha256": "9118247896628a9e0e2718212802e2d096f941752444def49222bc3e6a3a2f7d",
+  "changelog": "Fixes app freezing/unresponsive settings page during WiFi activity (eventlet.monkey_patch() + nmcli serialization); fixes WiFi reconnect stranding the device with no network path on a failed attempt; adds retry for a NetworkManager secrets-timing race on freshly created profiles; redesigns WiFi connect UI as a proper modal with live status instead of a form that could hang forever with no feedback."
 }
