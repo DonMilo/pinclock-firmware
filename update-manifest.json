@@ -1,6 +1,6 @@
 {
-  "latest": "0.10.0",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.10.0/pinclock-0.10.0.tar.gz",
-  "sha256": "9118247896628a9e0e2718212802e2d096f941752444def49222bc3e6a3a2f7d",
-  "changelog": "Fixes app freezing/unresponsive settings page during WiFi activity (eventlet.monkey_patch() + nmcli serialization); fixes WiFi reconnect stranding the device with no network path on a failed attempt; adds retry for a NetworkManager secrets-timing race on freshly created profiles; redesigns WiFi connect UI as a proper modal with live status instead of a form that could hang forever with no feedback."
+  "latest": "0.13.7",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.13.7/pinclock-0.13.7.tar.gz",
+  "sha256": "b1ae96dbdd02f4a51fe36d0c4ce64cfa9a21099ac4a0bf81192ef21e09c56a23",
+  "changelog": "Multi-device support: unique per-device hostname/hotspot SSID/QR codes (v0.13.0). Hotspot-mode ticker with 2-min auto-expiry. New 'Disconnect now' + idle-timeout to release a phone from the setup hotspot without tearing it down. Fixed WiFi toggle giving no feedback during a transition. Fixed reconnect falling back to hotspot with no recovery path if the remembered profile was stale - now matches by SSID and restores the hotspot explicitly on failure. journald persistence + avahi mDNS refresh fixes."
 }
