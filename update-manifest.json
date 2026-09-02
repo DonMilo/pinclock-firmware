@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.2",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.2/release-0.15.2.tar.gz",
-  "sha256": "df17917be68b2dc3f7a9107016cda63c1866c217e64a966e01ffea053f028ec4",
-  "changelog": "Fixes a control-page bug after Factory Reset: the page previously stayed showing disabled buttons (including \"Check for Firmware Update\") after the device rebooted and the browser tab silently reconnected, requiring a manual page refresh to recover. The page now reloads itself automatically once it detects a genuine reconnect following a factory reset. Also includes all v0.15.1 changes (firmware-update status-reporting race fix) and v0.15.0 changes (Clock tab order, WiFi-required prompts, auto-connect toggle fix, hotspot-IP reconnect warning, WiFi networks list rename)."
+  "latest": "0.15.3",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.3/release-0.15.3.tar.gz",
+  "sha256": "8c7ac8cf708e96c3c3061761dc42597979b436b852e7d960c2781780a16a973c",
+  "changelog": "Fixes Factory Reset failing with PermissionError when restoring ~/.config/labwc/autostart and environment, on devices where those files are read-only. Also broadens error handling in both the update and factory-reset flows to catch any exception (not just the deliberate internal UpdateError type), so an unexpected failure always writes a \"failed\" status instead of leaving the control page stuck showing stale in-progress text forever. Also includes all v0.15.2 changes (control page auto-reload after a factory-reset reboot) and v0.15.1 changes (firmware-update status-reporting race fix)."
 }
