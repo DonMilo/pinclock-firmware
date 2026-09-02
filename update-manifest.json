@@ -1,6 +1,6 @@
 {
-  "latest": "0.13.7",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.13.7/pinclock-0.13.7.tar.gz",
-  "sha256": "b1ae96dbdd02f4a51fe36d0c4ce64cfa9a21099ac4a0bf81192ef21e09c56a23",
-  "changelog": "Multi-device support: unique per-device hostname/hotspot SSID/QR codes (v0.13.0). Hotspot-mode ticker with 2-min auto-expiry. New 'Disconnect now' + idle-timeout to release a phone from the setup hotspot without tearing it down. Fixed WiFi toggle giving no feedback during a transition. Fixed reconnect falling back to hotspot with no recovery path if the remembered profile was stale - now matches by SSID and restores the hotspot explicitly on failure. journald persistence + avahi mDNS refresh fixes."
+  "latest": "0.15.0",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.0/release-0.15.0.tar.gz",
+  "sha256": "a5c61c10280126857f849471cb259002a404d51648248fbb9da828f8e6534c50",
+  "changelog": "Since v0.14.14: setup-overlay countdown pill fixed (was rendering behind the QR backdrop); ticker/demo-mode no longer permanently muted on wired-ethernet devices whose WiFi hotspot stays up; hotspot SSID label no longer gets wiped by a later socket update; Check for Firmware Update no longer reports an older manifest version as \"available\", and the updater itself now refuses to install anything that isn't actually newer; m3u playlist import redesigned (own section, optional http://, default pinclock.m3u filename); Clock tab now comes before Video; Upload Video/Import Playlist/Check for Firmware Update now prompt to connect to WiFi first when on the setup hotspot; WiFi auto-connect toggle updates immediately on a successful connect; reconnecting to WiFi while viewing the control page at the hotspot's bare IP now shows the mDNS address (or QR-code fallback) needed to reach it afterward; \"Nearby WiFi Networks\" renamed."
 }
