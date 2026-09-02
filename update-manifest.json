@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.1/release-0.15.1.tar.gz",
-  "sha256": "b263c3e1136de66c8f857bd7b87351a35f6b6d3a3d50522e1881c683849ad5a3",
-  "changelog": "Fixes a status-reporting race in the firmware updater: /api/firmware/update and /api/system/factory-reset now synchronously reset the shared status file to a fresh \"pending\" state before returning, so the control page's very first poll can no longer read a stale leftover result from a previous, unrelated update or factory reset (this could show a wrong version number in the \"Updated successfully\" message even though the actual install was correct). Also includes all v0.15.0 changes: Clock tab now before Video; Upload Video/Import Playlist/Check for Firmware Update prompt to connect to WiFi first when on the setup hotspot; WiFi auto-connect toggle updates immediately on a successful connect; reconnecting to WiFi while on the hotspot's bare IP shows the mDNS address (or QR-code fallback) needed to reach it afterward; \"Nearby WiFi Networks\" renamed."
+  "latest": "0.15.2",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.2/release-0.15.2.tar.gz",
+  "sha256": "df17917be68b2dc3f7a9107016cda63c1866c217e64a966e01ffea053f028ec4",
+  "changelog": "Fixes a control-page bug after Factory Reset: the page previously stayed showing disabled buttons (including \"Check for Firmware Update\") after the device rebooted and the browser tab silently reconnected, requiring a manual page refresh to recover. The page now reloads itself automatically once it detects a genuine reconnect following a factory reset. Also includes all v0.15.1 changes (firmware-update status-reporting race fix) and v0.15.0 changes (Clock tab order, WiFi-required prompts, auto-connect toggle fix, hotspot-IP reconnect warning, WiFi networks list rename)."
 }
