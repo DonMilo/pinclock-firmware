@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.3",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.3/release-0.15.3.tar.gz",
-  "sha256": "8c7ac8cf708e96c3c3061761dc42597979b436b852e7d960c2781780a16a973c",
-  "changelog": "Fixes Factory Reset failing with PermissionError when restoring ~/.config/labwc/autostart and environment, on devices where those files are read-only. Also broadens error handling in both the update and factory-reset flows to catch any exception (not just the deliberate internal UpdateError type), so an unexpected failure always writes a \"failed\" status instead of leaving the control page stuck showing stale in-progress text forever. Also includes all v0.15.2 changes (control page auto-reload after a factory-reset reboot) and v0.15.1 changes (firmware-update status-reporting race fix)."
+  "latest": "0.15.4",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.4/release-0.15.4.tar.gz",
+  "sha256": "4ecabe548df4973b0bf31ca397b7765b31a46d1109409bda9f9b972f66d45d35",
+  "changelog": "Fixes the control page's auto-reload after a Factory Reset reboot, which never actually worked in v0.15.2: reconnection events (\"reconnect\") are emitted by socket.io's Manager, not the Socket instance, so the listener needed to be socket.io.on(...) rather than socket.on(...) - the previous code silently never fired at all, leaving the page stuck on stale \"success\" text and disabled buttons after every factory reset until manually refreshed. Also includes all v0.15.3 changes (Factory Reset PermissionError fix for read-only labwc config files, broader exception handling in the updater)."
 }
