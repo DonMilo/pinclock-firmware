@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.8",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.8/release-0.15.8.tar.gz",
-  "sha256": "6663774cd2fe8120f6b78cf1d0b7d48b18786c3bc0a631da6d883f10e41fc9d6",
-  "changelog": "Fixes pinclock-early-splash.service failing outright (Unable to locate executable) and the existing swaybg splash silently showing a stale, out-of-date image - both traced to /home/vfw/pinclock, a compatibility symlink that run_update.py's OTA symlink swap never actually maintains (it only ever repoints /opt/pinclock/current). On any device that's been through even one firmware update since initial imaging, that symlink can silently drift out of sync with what's actually running. Both the early-splash unit and the swaybg fallback now reference /opt/pinclock/current directly, matching pinclock.service's own existing convention. NOTE: home-vfw-config-labwc/autostart still has two other references to the same stale symlink (network_boot.sh and gen_playlist.py) that were not changed here - worth checking/fixing separately. Requires re-running deploy_manual_files.sh to pick up the corrected unit file and autostart."
+  "latest": "0.15.9",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.9/release-0.15.9.tar.gz",
+  "sha256": "36c41c01b12966203f913e5e93900b1c295794bbc5406f113980ee3cd93fdb82",
+  "changelog": "Fixes the early boot splash (fbi) getting evicted from the screen after about a second - it was targeting VT1, which getty@tty1.service also claims for the login prompt a few seconds into boot; the kernel signals the previous VT holder to release it when that happens, which fbi correctly reported as \"Oops: terminated\" (a graceful signal handler, not a crash) before the console reverted to plain boot text for the rest of boot. Now targets VT2, which no default Raspberry Pi OS getty uses, so nothing contests it. Requires an actual firmware update (not just deploy_manual_files.sh) to reach a device, since early-splash.sh lives in the OTA-managed tree."
 }
