@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.9",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.9/release-0.15.9.tar.gz",
-  "sha256": "36c41c01b12966203f913e5e93900b1c295794bbc5406f113980ee3cd93fdb82",
-  "changelog": "Fixes the early boot splash (fbi) getting evicted from the screen after about a second - it was targeting VT1, which getty@tty1.service also claims for the login prompt a few seconds into boot; the kernel signals the previous VT holder to release it when that happens, which fbi correctly reported as \"Oops: terminated\" (a graceful signal handler, not a crash) before the console reverted to plain boot text for the rest of boot. Now targets VT2, which no default Raspberry Pi OS getty uses, so nothing contests it. Requires an actual firmware update (not just deploy_manual_files.sh) to reach a device, since early-splash.sh lives in the OTA-managed tree."
+  "latest": "0.15.10",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.10/release-0.15.10.tar.gz",
+  "sha256": "2b3e38c04adde2b8eda71b27959b350c1a84ec11e17098c7e6b4d50300d46b4c",
+  "changelog": "Fixes two real bugs in the early boot splash confirmed via fbi's own documentation: (1) -noverbose was invalid syntax the whole time (fbi's actual option is -v/--(no)verbose, requiring double-dash --noverbose for the negated long form - a single dash gets parsed as a string of unrelated short flags instead), now also adds --nointeractive explicitly; (2) the systemd unit used Type=simple, but fbi actually daemonizes itself (forks a child and exits the original process almost immediately) - confirmed by systemd's own logs showing the tracked main PID exit successfully while a completely different PID had to be force-killed later. The unit now uses Type=forking, letting systemd correctly auto-detect the real long-lived process. NOTE: the etc-systemd-system/pinclock-early-splash.service unit file itself is NOT part of this OTA update (it lives outside the OTA-managed tree, like device_identity.py) - re-run deploy_manual_files.sh to pick up the Type=forking fix; a firmware update alone only fixes the -noverbose/--nointeractive script flags."
 }
