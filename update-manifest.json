@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.4",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.4/release-0.15.4.tar.gz",
-  "sha256": "4ecabe548df4973b0bf31ca397b7765b31a46d1109409bda9f9b972f66d45d35",
-  "changelog": "Fixes the control page's auto-reload after a Factory Reset reboot, which never actually worked in v0.15.2: reconnection events (\"reconnect\") are emitted by socket.io's Manager, not the Socket instance, so the listener needed to be socket.io.on(...) rather than socket.on(...) - the previous code silently never fired at all, leaving the page stuck on stale \"success\" text and disabled buttons after every factory reset until manually refreshed. Also includes all v0.15.3 changes (Factory Reset PermissionError fix for read-only labwc config files, broader exception handling in the updater)."
+  "latest": "0.15.5",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.5/release-0.15.5.tar.gz",
+  "sha256": "3cb240b450e453c40fd89c94c6a4483f8fc29a33e41a9065c16b0bc4c85ca37b",
+  "changelog": "Fixes a disk-space leak in Factory Reset: run_factory_reset() never called the same release-pruning logic run_update() already uses on success, and never cleaned up a failed attempt's partial staging directory either - so every factory reset attempt (successful or failed) left a full copy of the release tree behind permanently. Both are now cleaned up: successful resets prune old releases the same way regular updates do, and a failed attempt removes its own orphaned staging directory immediately. Note: this fix lives in run_update.py, which is deployed separately from app releases (same as device_identity.py) - installing this update will NOT pick it up; it must be copied to /opt/pinclock/updater/run_update.py manually. Also includes all v0.15.4 changes (factory-reset auto-reload fix) and v0.15.3 changes (labwc permission fix, broader exception handling)."
 }
