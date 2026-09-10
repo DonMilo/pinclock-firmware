@@ -1,0 +1,6 @@
+{
+  "latest": "0.15.12",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.12/pinclock-0.15.12.tar.gz",
+  "sha256": "7cd3f9c9e8cace5e7911e75f290af785ac284ac74bf3b06baa95c765b16e1c26",
+  "changelog": "Resolution management overhaul: auto-detects native resolution and, ONLY for displays specifically recognized in known-displays (the standard/default shipped display), caps rendered/output resolution proportionally to a fleet-configurable max width (max-view-width) for smoother video/ticker scrolling. Any unrecognized display is left completely untouched at its own native resolution by default. Adds a per-device target-resolution override for individual exceptions, and a Display Resolution control on the Device tab so any unit's resolution can be changed from its own web UI without SSH. Fixes cursor lingering too long after being reset by Cog (10s -> 2s). Requires wlr-randr on the base image and WAYLAND_DISPLAY/XDG_RUNTIME_DIR in pinclock.service."
+}
