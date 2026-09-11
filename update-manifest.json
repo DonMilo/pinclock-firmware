@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.13",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.13/pinclock-0.15.13.tar.gz",
-  "sha256": "49b542f674e64319c8931bd3f6f99d134d1b9860d3d7f119e53d10f1c47ea720",
-  "changelog": "Post-WiFi-connect settings QR now shows only the IP-based code (mDNS/.local support is inconsistent across routers/phones), keeping the hostname text below unchanged for reference. Saving a Display Resolution change now offers an immediate reboot instead of leaving it silently pending. Restores the correct boot splash image (was being overwritten by prior releases shipping an outdated one from source)."
+  "latest": "0.15.15",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.15/pinclock-0.15.15.tar.gz",
+  "sha256": "06f5c620568739ac8e729480581c8d97d7c2b28776fc50b52ddfd6c91e00e3fb",
+  "changelog": "Adds visibility for the previously-invisible gap between app code (updated via firmware) and manually-deployed system files like autostart (updated via deploy_manual_files.sh, never automatically). The Device tab's Device Info card now shows a separate 'System config' version alongside the app's own Firmware version, read from a new MANUAL_FILES_VERSION file that ships with autostart/environment/etc. and is deployed the same way. deploy_manual_files.sh also echoes the version it just deployed, confirming what shipped at the point of deployment. Shows 'not tracked' rather than a blank/misleading value on a device that's never had this file deployed."
 }
