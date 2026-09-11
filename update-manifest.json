@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.17",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.17/pinclock-0.15.17.tar.gz",
-  "sha256": "75866c3d5e25546842b2d36ae2191d1a32a0712fb73105abf7e4f05be36fa85d",
-  "changelog": "Adds admin/reseller video management: Stock (shipped) videos can now be deleted, gated behind a simple session-scoped admin password (client-side only, matching this app's existing no-login trust model). A single 'Add to Stock' checkbox applies to either a direct Upload or an Import Playlist (which now also accepts a direct link to a single .mp4 file, no .m3u playlist file needed) - lets a reseller pre-load the videos a device should ship with through either path."
+  "latest": "0.15.18",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.18/pinclock-0.15.18.tar.gz",
+  "sha256": "7336eb0fbcc7b084daecd2a6278765852c8e9f715872d5beebdc0ced1bf0e687",
+  "changelog": "Fixes a real, long-standing bug (tracked since the start of this project as 'WiFi profile deletion fails silently'): wifi_manager.forget() and reconnect_client()'s SSID-fallback search both compared nmcli's reported connection TYPE against the wrong string ('wifi' instead of the actual '802-11-wireless' - nmcli reports the long form for connection show, not the short form device status uses). This meant Reset to Default Settings (and Factory Reset, which reuses the same path) never actually deleted any WiFi profile, ever - the device would silently reconnect to its old network after the reboot despite the UI reporting success. Confirmed via a live nmcli capture spanning an actual reset+reboot on real hardware, showing the connection list never changing at all. Fixed by comparing against the correct string in both places."
 }
