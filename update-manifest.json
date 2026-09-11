@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.18",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.18/pinclock-0.15.18.tar.gz",
-  "sha256": "7336eb0fbcc7b084daecd2a6278765852c8e9f715872d5beebdc0ced1bf0e687",
-  "changelog": "Fixes a real, long-standing bug (tracked since the start of this project as 'WiFi profile deletion fails silently'): wifi_manager.forget() and reconnect_client()'s SSID-fallback search both compared nmcli's reported connection TYPE against the wrong string ('wifi' instead of the actual '802-11-wireless' - nmcli reports the long form for connection show, not the short form device status uses). This meant Reset to Default Settings (and Factory Reset, which reuses the same path) never actually deleted any WiFi profile, ever - the device would silently reconnect to its old network after the reboot despite the UI reporting success. Confirmed via a live nmcli capture spanning an actual reset+reboot on real hardware, showing the connection list never changing at all. Fixed by comparing against the correct string in both places."
+  "latest": "0.15.19",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.19/pinclock-0.15.19.tar.gz",
+  "sha256": "ed6a0007ffd0c6a355b4c9be7b422ce5a4d230fd8fe96e62dda9d4da37fde6f3",
+  "changelog": "Fixes the WiFi tab's Forget button being hidden whenever the current connection was set up outside this app's own Connect flow (e.g. a network configured directly via nmcli) - visibility now correctly follows the actual connection state, not just this app's own bookkeeping, which could be empty even while a real network is genuinely active. The confirmation prompt and Remembered-network line also fall back sensibly to the actual current SSID instead of showing an empty value."
 }
