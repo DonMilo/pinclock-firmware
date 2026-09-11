@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.15",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.15/pinclock-0.15.15.tar.gz",
-  "sha256": "06f5c620568739ac8e729480581c8d97d7c2b28776fc50b52ddfd6c91e00e3fb",
-  "changelog": "Adds visibility for the previously-invisible gap between app code (updated via firmware) and manually-deployed system files like autostart (updated via deploy_manual_files.sh, never automatically). The Device tab's Device Info card now shows a separate 'System config' version alongside the app's own Firmware version, read from a new MANUAL_FILES_VERSION file that ships with autostart/environment/etc. and is deployed the same way. deploy_manual_files.sh also echoes the version it just deployed, confirming what shipped at the point of deployment. Shows 'not tracked' rather than a blank/misleading value on a device that's never had this file deployed."
+  "latest": "0.15.16",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.16/pinclock-0.15.16.tar.gz",
+  "sha256": "081b1f0dda0795f8ab7797724862e62459835a9664cc8b2159f1fb449948d658",
+  "changelog": "Adds admin/reseller video management: Stock (shipped) videos can now be deleted, gated behind a simple admin password (session-scoped, not real security - matches this app's existing no-login trust model for its other destructive actions). Import Playlist now also accepts a direct link to a single .mp4 file (no .m3u playlist file needed) and can import straight into Stock instead of My Videos (admin-gated), letting a reseller pre-load the videos a device should ship with."
 }
