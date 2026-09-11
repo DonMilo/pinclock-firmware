@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.16",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.16/pinclock-0.15.16.tar.gz",
-  "sha256": "081b1f0dda0795f8ab7797724862e62459835a9664cc8b2159f1fb449948d658",
-  "changelog": "Adds admin/reseller video management: Stock (shipped) videos can now be deleted, gated behind a simple admin password (session-scoped, not real security - matches this app's existing no-login trust model for its other destructive actions). Import Playlist now also accepts a direct link to a single .mp4 file (no .m3u playlist file needed) and can import straight into Stock instead of My Videos (admin-gated), letting a reseller pre-load the videos a device should ship with."
+  "latest": "0.15.17",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.17/pinclock-0.15.17.tar.gz",
+  "sha256": "75866c3d5e25546842b2d36ae2191d1a32a0712fb73105abf7e4f05be36fa85d",
+  "changelog": "Adds admin/reseller video management: Stock (shipped) videos can now be deleted, gated behind a simple session-scoped admin password (client-side only, matching this app's existing no-login trust model). A single 'Add to Stock' checkbox applies to either a direct Upload or an Import Playlist (which now also accepts a direct link to a single .mp4 file, no .m3u playlist file needed) - lets a reseller pre-load the videos a device should ship with through either path."
 }
