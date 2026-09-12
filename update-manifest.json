@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.19",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.19/pinclock-0.15.19.tar.gz",
-  "sha256": "ed6a0007ffd0c6a355b4c9be7b422ce5a4d230fd8fe96e62dda9d4da37fde6f3",
-  "changelog": "Fixes the WiFi tab's Forget button being hidden whenever the current connection was set up outside this app's own Connect flow (e.g. a network configured directly via nmcli) - visibility now correctly follows the actual connection state, not just this app's own bookkeeping, which could be empty even while a real network is genuinely active. The confirmation prompt and Remembered-network line also fall back sensibly to the actual current SSID instead of showing an empty value."
+  "latest": "0.15.20",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.20/pinclock-0.15.20.tar.gz",
+  "sha256": "f71833ce04f789b19e7aac6cab6fa3da984f8cf806c1a4621e04a5427e9d6f86",
+  "changelog": "Fixes the WiFi tab's Forget button being hidden whenever the current connection was set up outside this app's own Connect flow. Fixes the setup/hotspot QR overlay not appearing after a later 'Reset to Default Settings' if the 'show QR on boot' option had been turned off - being genuinely stranded on the setup hotspot with no other way back into settings now always shows the QR for at least 5 seconds regardless of that toggle (using the configured duration instead if it's set longer than 5s). The original first-boot 2-minute countdown window is unaffected."
 }
