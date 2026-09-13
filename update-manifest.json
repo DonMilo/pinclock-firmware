@@ -1,6 +1,6 @@
 {
-  "latest": "0.16.0",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.16.0/pinclock-0.16.0.tar.gz",
-  "sha256": "a41f99e006f756d0bddbbfaaa7716747495bdbf9ef8e3bc719c9742e076c2200",
-  "changelog": "Adds Sideload Update: upload a .tar.gz release file directly through the control page, for when the device has no real internet access (stuck on its own setup hotspot, for instance) - the normal Check for Firmware Update needs the device itself to reach GitHub, which a hotspot alone can never provide. Goes through the exact same verification, install, and rollback-on-failure pipeline as a normal update; run_update.py's core logic was refactored to discover a release's version from its own bundled release-manifest.json rather than always trusting a value fetched from GitHub, which is what makes sideloading possible without a separate update-manifest.json to consult."
+  "latest": "0.16.2",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.16.2/pinclock-0.16.2.tar.gz",
+  "sha256": "3469490c4c8377f6acf8cac1b83234d5950195073a7ba16e946bf8c551099baf",
+  "changelog": "Reorders the Device tab: Boot Logo now sits below Display Resolution. Otherwise identical to v0.16.1 - intended as a real-hardware test of the normal, URL-fetched Check for Firmware Update path specifically, following the v0.16.1 run_update.py refactor (the largest, most safety-critical change of this whole series)."
 }
