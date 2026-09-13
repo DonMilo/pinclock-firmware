@@ -1,6 +1,6 @@
 {
-  "latest": "0.15.20",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.15.20/pinclock-0.15.20.tar.gz",
-  "sha256": "f71833ce04f789b19e7aac6cab6fa3da984f8cf806c1a4621e04a5427e9d6f86",
-  "changelog": "Fixes the WiFi tab's Forget button being hidden whenever the current connection was set up outside this app's own Connect flow. Fixes the setup/hotspot QR overlay not appearing after a later 'Reset to Default Settings' if the 'show QR on boot' option had been turned off - being genuinely stranded on the setup hotspot with no other way back into settings now always shows the QR for at least 5 seconds regardless of that toggle (using the configured duration instead if it's set longer than 5s). The original first-boot 2-minute countdown window is unaffected."
+  "latest": "0.16.0",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.16.0/pinclock-0.16.0.tar.gz",
+  "sha256": "a41f99e006f756d0bddbbfaaa7716747495bdbf9ef8e3bc719c9742e076c2200",
+  "changelog": "Adds Sideload Update: upload a .tar.gz release file directly through the control page, for when the device has no real internet access (stuck on its own setup hotspot, for instance) - the normal Check for Firmware Update needs the device itself to reach GitHub, which a hotspot alone can never provide. Goes through the exact same verification, install, and rollback-on-failure pipeline as a normal update; run_update.py's core logic was refactored to discover a release's version from its own bundled release-manifest.json rather than always trusting a value fetched from GitHub, which is what makes sideloading possible without a separate update-manifest.json to consult."
 }
