@@ -1,6 +1,6 @@
 {
-  "latest": "0.16.2",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.16.2/pinclock-0.16.2.tar.gz",
-  "sha256": "3469490c4c8377f6acf8cac1b83234d5950195073a7ba16e946bf8c551099baf",
-  "changelog": "Reorders the Device tab: Boot Logo now sits below Display Resolution. Otherwise identical to v0.16.1 - intended as a real-hardware test of the normal, URL-fetched Check for Firmware Update path specifically, following the v0.16.1 run_update.py refactor (the largest, most safety-critical change of this whole series)."
+  "latest": "0.23.17",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.23.17/pinclock-0.23.17.tar.gz",
+  "sha256": "d9ac7a0b18363c058692f61de9800a86f7dc0488f5474e4eecfabdb707d7dc73",
+  "changelog": "..."
 }
