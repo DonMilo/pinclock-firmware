@@ -1,6 +1,6 @@
 {
-  "latest": "0.24.14",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.24.14/pinclock-0.24.14.tar.gz",
-  "sha256": "77d921a2865a8a5922b12427e3f42844241d51a0bc320f8fb550bea92c64b19b",
-  "changelog": "Simpler Menus.  Advanced Settings, Auto reboot/restart on update"
+  "latest": "0.25.16",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.25.16/pinclock-0.25.16.tar.gz",
+  "sha256": "0523f1f60249518cbc54eef734c7403390b059c73ced9819cc32bb42ca4d1e72",
+  "changelog": "Advanced Settings, Holiday Signs, More Fonts"
 }
