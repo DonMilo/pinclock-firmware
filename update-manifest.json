@@ -1,6 +1,6 @@
 {
-  "latest": "0.25.16",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.25.16/pinclock-0.25.16.tar.gz",
-  "sha256": "0523f1f60249518cbc54eef734c7403390b059c73ced9819cc32bb42ca4d1e72",
-  "changelog": "Advanced Settings, Holiday Signs, More Fonts"
+  "latest": "0.26.4",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.26.4/pinclock-0.26.4.tar.gz",
+  "sha256": "00060d3106e2f1953ece66a395838cc985e7e8f88171daf1ac3271ea29b2dc7c",
+  "changelog": "Simple settings, Holiday Signs, EM Clock, and Better WiFi connect"
 }
