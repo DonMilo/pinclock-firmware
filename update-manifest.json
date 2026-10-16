@@ -1,6 +1,6 @@
 {
-  "latest": "0.28.0",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.28.0/pinclock-0.28.0.tar.gz",
-  "sha256": "69670d283ee65e8169260e229959957451856d49a2e8b54dcddd12f3365f6be7",
-  "changelog": "EM Clock Themes"
+  "latest": "0.28.2",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.28.2/pinclock-0.28.2.tar.gz",
+  "sha256": "e2b13244f8c7abd51331f61bd62998afc401e981c5f32c913a92702286016d94",
+  "changelog": "EM Clock Themes/Backgrounds"
 }
