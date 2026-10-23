@@ -1,6 +1,6 @@
 {
-  "latest": "0.30.8",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.30.8/pinclock-0.30.8.tar.gz",
-  "sha256": "d7e4b7e86be494cc10a3943314606a9c057e1d057f4638417d96d9f12044ade5",
-  "changelog": "EM Clock Cycle Themes/Backgrounds"
+  "latest": "0.30.9",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.30.9/pinclock-0.30.9.tar.gz",
+  "sha256": "192036b3b005393272b0586590788b6cc514a64deef7dcb495a1937beb5c433c",
+  "changelog": "DMD-OFF-EM"
 }
