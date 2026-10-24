@@ -1,6 +1,6 @@
 {
-  "latest": "0.30.9",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.30.9/pinclock-0.30.9.tar.gz",
-  "sha256": "192036b3b005393272b0586590788b6cc514a64deef7dcb495a1937beb5c433c",
-  "changelog": "DMD-OFF-EM"
+  "latest": "0.30.17",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.30.17/pinclock-0.30.17.tar.gz",
+  "sha256": "2bf032a0d938f5f32b2418dacef0802450f22355d6d1ad6a200a6505b36e812d",
+  "changelog": "EM Playlists"
 }
