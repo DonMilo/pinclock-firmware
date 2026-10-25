@@ -1,6 +1,6 @@
 {
-  "latest": "0.30.17",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.30.17/pinclock-0.30.17.tar.gz",
-  "sha256": "2bf032a0d938f5f32b2418dacef0802450f22355d6d1ad6a200a6505b36e812d",
-  "changelog": "EM Playlists"
+  "latest": "0.31.4",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.4/pinclock-0.31.4.tar.gz",
+  "sha256": "40ae3bdc78f9c3a866ffe66dd1544e79af613b667549e62540a11ce0179dc424",
+  "changelog": "EM Clock Size"
 }
