@@ -1,6 +1,6 @@
 {
-  "latest": "0.31.5",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.5/pinclock-0.31.5.tar.gz",
-  "sha256": "87fe68721e02b31debb4e31602f53f6f7716afb701b9e09e46c661d31eb47aef",
+  "latest": "0.31.6",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.6/pinclock-0.31.6.tar.gz",
+  "sha256": "fb166cc7217a84fe082f3612ec673d34f12fb12195b0470c44b6573f039c6d3b",
   "changelog": "All EM videos, Splash, small EM clock, plate colors, hiding plates, reset code (v0.31.5)"
 }
