@@ -1,6 +1,6 @@
 {
-  "latest": "0.31.6",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.6/pinclock-0.31.6.tar.gz",
-  "sha256": "fb166cc7217a84fe082f3612ec673d34f12fb12195b0470c44b6573f039c6d3b",
-  "changelog": "All EM videos, Splash, small EM clock, plate colors, hiding plates, reset code (v0.31.5)"
+  "latest": "0.31.7",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.7/pinclock-0.31.7.tar.gz",
+  "sha256": "36f6fc3ddf0b0470d220ab7528f15f0fd7e43d06b9d284684710042c76441bd9",
+  "changelog": "Remove Clay AI videos"
 }
