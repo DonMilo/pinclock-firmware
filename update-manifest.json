@@ -1,6 +1,6 @@
 {
-  "latest": "0.31.8",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.31.8/pinclock-0.31.8.tar.gz",
-  "sha256": "ffe2edce0e2b498ae82da5d7bd498431d87300a7eb7464246ea5b88032c02001",
-  "changelog": "Remove Clay AI, added videos"
+  "latest": "0.40.2",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.40.2/pinclock-0.40.2.tar.gz",
+  "sha256": "0bd0bc9986859fc57d2dcabfbd7e8a0898ed6e6773a33d31358129bd991fd5b9",
+  "changelog": "Generic"
 }
