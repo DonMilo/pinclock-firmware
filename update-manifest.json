@@ -1,6 +1,6 @@
 {
-  "latest": "0.50.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.50.1/pinclock-0.50.1.tar.gz",
-  "sha256": "93669b6e33391122e33c294d0f84de0582ff2da54fcd9f02f2f2be267809945e",
-  "changelog": "Secuirity fine tune"
+  "latest": "0.50.2",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.50.2/pinclock-0.50.2.tar.gz",
+  "sha256": "276f81965953afca38b8339c50a3ebc8ff8819dd005dc65b77859a3700f0dd12",
+  "changelog": "Secuirity"
 }
