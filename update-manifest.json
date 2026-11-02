@@ -1,6 +1,6 @@
 {
-  "latest": "0.51.3",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.51.3/pinclock-0.51.3.tar.gz",
-  "sha256": "86e0ec3857b150db0986be452ba1e4ed5a11620c3ccf924383c664ef3dcf8237",
-  "changelog": "Backglass Slideshow Videos"
+  "latest": "0.51.9",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.51.9/pinclock-0.51.9.tar.gz",
+  "sha256": "11b06b22ac7104fb1c855391be9cb8bf8408b0c0f811f0a5bc394154db325bb6",
+  "changelog": "More Backglass Slideshow Videos"
 }
