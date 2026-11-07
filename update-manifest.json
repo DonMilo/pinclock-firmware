@@ -1,6 +1,6 @@
 {
-  "latest": "0.54.6",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.54.6/pinclock-0.54.6.tar.gz",
-  "sha256": "30a711c53bfc975d02de8a882e36771e4c72f2061eb661880200e2aad4be443c",
-  "changelog": "EM/SS Clock, Security+"
+  "latest": "0.54.7",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.54.7/pinclock-0.54.7.tar.gz",
+  "sha256": "8b4a8d80a028db3418524d648d4b9a81d34ac0525faef95ce8044be8b72bf218",
+  "changelog": "EM/SS Clock, More SS"
 }
