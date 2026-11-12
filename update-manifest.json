@@ -1,6 +1,6 @@
 {
-  "latest": "0.55.13",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.55.13/pinclock-0.55.13.tar.gz",
-  "sha256": "7002096279dec0d5d43d82e26ed306af62c5cf1eb4989be479d2fb7f7224cabb",
-  "changelog": "More BG, Hide Logo"
+  "latest": "0.55.14",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.55.14/pinclock-0.55.14.tar.gz",
+  "sha256": "3570160409ebc144771e03564b34029613ea2b5f6480e84e9d54e233ca343c9a",
+  "changelog": "Firmware update keeps backglasses"
 }
