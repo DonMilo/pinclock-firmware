@@ -1,6 +1,6 @@
 {
-  "latest": "0.60.4",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.60.4/pinclock-0.60.4.tar.gz",
-  "sha256": "5f965be74f3abbc28212f8df142d548817ab44284ce9035a499cad15d5b0e880",
-  "changelog": "DMD backglasses + UI changes"
+  "latest": "0.61.14",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.14/pinclock-0.61.14.tar.gz",
+  "sha256": "51d047fbe42cd4c99603de9ee9bd2c7b65853071982dd86cc470c063bf24c6f0",
+  "changelog": "S11 BG, Slimer UI"
 }
