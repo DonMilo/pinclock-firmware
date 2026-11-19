@@ -1,6 +1,6 @@
 {
-  "latest": "0.61.20",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.20/pinclock-0.61.20.tar.gz",
-  "sha256": "532f6b19dbb97ccc2912a1e440e9c531d56a75686d0a761aaf29d48496d9c94f",
-  "changelog": "More Videos"
+  "latest": "0.61.22",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.22/pinclock-0.61.22.tar.gz",
+  "sha256": "ec75dc06218242fe37de9c3287d083d2085a7d456cb498cc6ab7263cdeb79469",
+  "changelog": "Big Clock Fix"
 }
