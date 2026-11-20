@@ -1,6 +1,6 @@
 {
-  "latest": "0.61.22",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.22/pinclock-0.61.22.tar.gz",
-  "sha256": "ec75dc06218242fe37de9c3287d083d2085a7d456cb498cc6ab7263cdeb79469",
-  "changelog": "Big Clock Fix"
+  "latest": "0.61.24",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.24/pinclock-0.61.24.tar.gz",
+  "sha256": "68df180c4beb520d7e2b590128904ddc983a51f6c07a78eaa3a7604027f40136",
+  "changelog": "SS Clock Positions, Popeye, Appollo 13"
 }
