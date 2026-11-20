@@ -1,6 +1,6 @@
 {
-  "latest": "0.62.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.62.1/pinclock-0.62.1.tar.gz",
-  "sha256": "21d3367cdcbeea44219c93c63417c427d709db6c451d4467d9784a7cf5589d84",
-  "changelog": "Transparent BG, Bigger QR Codes"
+  "latest": "0.62.3",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.62.3/pinclock-0.62.3.tar.gz",
+  "sha256": "7fb27cd760cc6764381a8ac9a8796bf595b20f739ceec30c549b7889f0fc1ec8",
+  "changelog": "Cleaner boot, Transparent BG, Bigger QR Codes"
 }
