@@ -1,6 +1,6 @@
 {
-  "latest": "0.61.25",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.25/pinclock-0.61.25.tar.gz",
-  "sha256": "a781daf7b740bfb2a7324ae5a592c377977feb70c978176478b72da2ff30768c",
-  "changelog": "SS Clock Positions, Popeye, Appollo 13"
+  "latest": "0.61.29",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.61.29/pinclock-0.61.29.tar.gz",
+  "sha256": "2d19fec63ead403e1113b683e473344d704b7fbe4410027843846338d9e97f6e",
+  "changelog": "Better Wifi Connect"
 }
