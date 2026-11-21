@@ -1,6 +1,6 @@
 {
-  "latest": "0.62.4",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.62.4/pinclock-0.62.4.tar.gz",
-  "sha256": "b00ad01020b4742310e6c4810e082e7de862e9f64e869384f90e8dbdcfe2ff0e",
-  "changelog": "Cleaner boot, Transparent BG, Bigger QR Codes, 5A Low Power Suggestions"
+  "latest": "0.63.1",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.63.1/pinclock-0.63.1.tar.gz",
+  "sha256": "62db37dbfb7baa01bf852df4016ac335be21835f1111a0c868be1657f2b1a2aa",
+  "changelog": "Fix slow boot"
 }
