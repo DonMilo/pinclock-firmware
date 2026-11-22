@@ -1,6 +1,6 @@
 {
-  "latest": "0.63.1",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.63.1/pinclock-0.63.1.tar.gz",
-  "sha256": "62db37dbfb7baa01bf852df4016ac335be21835f1111a0c868be1657f2b1a2aa",
-  "changelog": "Fix slow boot"
+  "latest": "0.63.5",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.63.5/pinclock-0.63.5.tar.gz",
+  "sha256": "7d7da96752c7c8ce40f3a790966435e68ccce47c29195bceec782afe18ea4cc7",
+  "changelog": "Exhibit BG"
 }
