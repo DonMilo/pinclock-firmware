@@ -1,6 +1,6 @@
 {
-  "latest": "0.63.6",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.63.6/pinclock-0.63.6.tar.gz",
-  "sha256": "40e6aed56195fcc53600428bc5706bab18678248a2f374ebb349e6da7fd0d4b6",
-  "changelog": "License levels"
+  "latest": "0.64.0",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.64.0/pinclock-0.64.0.tar.gz",
+  "sha256": "b88cdcd6c0958c1335040d1c1c564995ddba0ba3cab268e9245d03ffd5b0c680",
+  "changelog": "License levels- Cleanup"
 }
