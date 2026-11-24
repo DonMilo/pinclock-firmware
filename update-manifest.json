@@ -1,6 +1,6 @@
 {
-  "latest": "0.64.3",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.64.3/pinclock-0.64.3.tar.gz",
-  "sha256": "c45216eb3d73374586d09e19a479baf3aa8895906b274a601311cb8869c5cbd3",
-  "changelog": "Security Settings"
+  "latest": "0.64.9",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.64.9/pinclock-0.64.9.tar.gz",
+  "sha256": "af529e523c3012c51938423d5b00c4d0852629ba19a0894e24f0691647842a96",
+  "changelog": "Check for Authorized Display"
 }
