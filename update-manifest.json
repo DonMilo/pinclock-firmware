@@ -1,6 +1,6 @@
 {
-  "latest": "0.64.12",
-  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.64.12/pinclock-0.64.12.tar.gz",
-  "sha256": "c10f494c892103fdd0681275e9e3583e40199f46dff88a20380cf6872740c68a",
-  "changelog": "EM Video mode defaults"
+  "latest": "0.64.14",
+  "url": "https://github.com/DonMilo/pinclock-firmware/releases/download/v0.64.14/pinclock-0.64.14.tar.gz",
+  "sha256": "c19872dd603dc98dfae1bc2a9307a59e97cf82fae207cb345061129e27a6fbe9",
+  "changelog": "QR codes .local and IP"
 }
